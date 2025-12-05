@@ -10,11 +10,11 @@
     <!-- add icon link -->
     <link rel="icon" href="../assets/images/website-images/logo.png" type="image/x-icon">
 
-    <!--bootsrap  Styles sheet  -->
+    <!-- Bootstrap stylesheet  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <!-- style sheet for complete website -->
+    <!-- site stylesheet -->
     <link rel="stylesheet" href="../assets/css/exotic-parts.css">
 
     <!-- font family Montserrat and roboto slab -->
@@ -27,13 +27,14 @@
 </head>
 
 <body>
+    <!-- loader -->
     <div id="loader">
-        <img id="loader-image" src="../assets/images/website-images/Spinner-1s-200px.gif" alt="Loading.."/>
+        <img id="loader-image" src="../assets/images/website-images/Spinner-1s-200px.gif" alt="Loading..." />
     </div>
-    <header class="header">
-        <!-- first nav bar with anchor tags  contains logo, about, contact us , login and add to cart -->
-        <nav class="navbar navbar-expand-lg fixed-top p-0 font-weight-bold mb-4">
 
+    <header class="header">
+        <!-- first nav bar -->
+        <nav class="navbar navbar-expand-lg fixed-top p-0 font-weight-bold mb-4">
             <!-- Navbar brand -->
             <a href="../index.html">
                 <span>GearTech</span>
@@ -42,20 +43,22 @@
             <!-- Collapse button -->
             <button class="navbar-toggler toggler-example navbar-light" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
-                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
             <!-- Collapsible content -->
-            <div class="collapse navbar-collapse " id="navbarSupportedContent1">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
 
-                <!-- Links -->
+                <!-- Left links -->
                 <ul class="navbar-nav mr-auto sm-ml-1">
                     <!-- about us -->
-                    <li class="nav-item  pl-4 pl-lg-0 pl-md-4 pl-sm-4">
+                    <li class="nav-item pl-4 pl-lg-0 pl-md-4 pl-sm-4">
                         <a class="nav-link d-flex flex-lg-column align-items-center" href="../index.html#about-us">
-                            <!-- About Us icon -->
                             <span class="pr-1">
+                                <!-- About Us icon -->
                                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35"
-                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    viewBox="0 0 172 172" style="fill:#000000;">
                                     <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1.2"
                                         stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
                                         stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
@@ -69,13 +72,15 @@
                                     </g>
                                 </svg>
                             </span>
-                            <span>About Us</span></a>
+                            <span>About Us</span>
+                        </a>
                     </li>
+
                     <!-- Blog -->
-                    <li class="nav-item  pl-4 pl-lg-0 pl-md-4 pl-sm-4">
+                    <li class="nav-item pl-4 pl-lg-0 pl-md-4 pl-sm-4">
                         <a class="nav-link d-flex flex-lg-column align-items-center" href="blog.html">
-                            <!-- Blog icon -->
                             <span class="pr-1">
+                                <!-- Blog icon -->
                                 <svg fill="#08415c" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" x="0px"
                                     y="0px" width="35px" height="35px">
                                     <path
@@ -86,15 +91,17 @@
                                         d="M28.99,18.48C29,18.76,28.77,19,28.48,19H26.5c-0.28,0-0.5-0.22-0.5-0.5h-0.02C25.74,12.27,20.73,7.26,14.5,7.02V7 C14.22,7,14,6.78,14,6.5V4.52c0-0.29,0.24-0.52,0.52-0.51C22.38,4.28,28.72,10.62,28.99,18.48z" />
                                 </svg>
                             </span>
-                            <span>Blog</span></a>
+                            <span>Blog</span>
+                        </a>
                     </li>
+
                     <!-- contact us -->
                     <li class="nav-item pl-4 pl-lg-0 pl-md-4 pl-sm-4">
                         <a class="nav-link d-flex flex-lg-column align-items-center" href="#contact-us">
-                            <!-- Contact Us icon -->
                             <span class="pr-1">
+                                <!-- Contact Us icon -->
                                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35"
-                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    viewBox="0 0 172 172" style="fill:#000000;">
                                     <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
                                         stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
                                         stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
@@ -108,18 +115,20 @@
                                     </g>
                                 </svg>
                             </span>
-                            <span>Contact Us</span></a>
+                            <span>Contact Us</span>
                         </a>
                     </li>
                 </ul>
+
+                <!-- Right links -->
                 <ul class="navbar-nav mr-4">
                     <!-- login and signup -->
                     <li class="nav-item pl-4 pl-lg-0 pl-md-4 pl-sm-4">
-                        <a class="nav-link d-flex flex-lg-column align-items-center login-btn">
+                        <a class="nav-link d-flex flex-lg-column align-items-center login-btn" href="form.html">
                             <!-- login icon  -->
                             <span class="pr-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="36" height="36"
-                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    viewBox="0 0 172 172" style="fill:#000000;">
                                     <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
                                         stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
                                         stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
@@ -131,16 +140,17 @@
                                             </path>
                                         </g>
                                     </g>
-                                </svg></span>
-                            <span id="loggedIn">Login / Sign Up</span></a>
+                                </svg>
+                            </span>
+                            <span id="loggedIn">Login / Sign Up</span>
                         </a>
                     </li>
-                    <li class="nav-item  pl-4 pl-lg-0 pl-md-4 pl-sm-4">
-                        <!-- Add to cart -->
+
+                    <!-- Add to cart -->
+                    <li class="nav-item pl-4 pl-lg-0 pl-md-4 pl-sm-4">
                         <a class="nav-link d-flex flex-lg-column align-items-center d-none" id="user-cart">
-                            <!--Add to Cart icon-->
                             <span class="pr-4">
-                                <span class="total-quantity ">0</span>
+                                <span class="total-quantity">0</span>
                                 <svg width="3.2em" height="3em" viewBox="0 0 16 16" class="bi bi-cart4"
                                     fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd"
@@ -153,20 +163,21 @@
                 </ul>
             </div>
         </nav>
-        <!-- /first Nav bar -->
-        <!-- second Nav bar  shows all the categories for auto parts-->
-        <nav class="category-navbar d-none d-lg-inline d-md-inline d-sm-none ">
+
+        <!-- second Nav bar  shows all the categories -->
+        <nav class="category-navbar d-none d-lg-inline d-md-inline d-sm-none">
             <ul
                 class="d-flex justify-content-around align-items-center list-unstyled mx-5 my-3 my-lg-0 my-md-0 my-sm-3 py-2 rounded-pill font-weight-bold">
                 <li class="dropdown">
                     <!-- brand logo -->
                     <span>
-                        <img src="../assets/images/website-images/logo-crop.png" alt="" width="50px">
-                        <span class="font-weight-bolder text-white">SHOP BY CATEGORIES:</span></span>
+                        <img src="../assets/images/website-images/logo-crop.png" alt="Brand logo" width="50">
+                        <span class="font-weight-bolder text-white">SHOP BY CATEGORIES:</span>
+                    </span>
                 </li>
                 <li class="dropdown">
                     <!-- first category -->
-                    <a class=" dropdown-toggle text-decoration-none text-white" id="dropdownMenuButton"
+                    <a class="dropdown-toggle text-decoration-none text-white" id="dropdownMenuButton"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Tyre and Wheels</a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="product.html?id=1&c_id=1">Wheel Accessories <span
@@ -177,24 +188,24 @@
                                     class="fas fa-chevron-right"></i></span> </a>
                     </div>
                 </li>
-                <li class=" dropdown ">
+                <li class="dropdown">
                     <!-- Second category -->
-                    <a class="dropdown-toggle text-decoration-none text-white" id="dropdownMenuButton"
+                    <a class="dropdown-toggle text-decoration-none text-white" id="dropdownMenuButton2"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Exterior</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
                         <a class="dropdown-item" href="product.html?id=2&c_id=1">Window Visors <span
                                 class="category-arrow"><i class="fas fa-chevron-right"></i></span> </a>
-                        <a class="dropdown-item" href="product.html?id=2&c_id=2">Door Handles, Locks & Accessories <span
-                                class="category-arrow"><i class="fas fa-chevron-right"></i></span> </a>
+                        <a class="dropdown-item" href="product.html?id=2&c_id=2">Door Handles, Locks &amp; Accessories
+                            <span class="category-arrow"><i class="fas fa-chevron-right"></i></span> </a>
                         <a class="dropdown-item" href="product.html?id=2&c_id=3">Truck Accessories <span
                                 class="category-arrow"><i class="fas fa-chevron-right"></i></span> </a>
                     </div>
                 </li>
-                <li class=" dropdown ">
+                <li class="dropdown">
                     <!-- 3rd category -->
-                    <a class="dropdown-toggle text-decoration-none text-white" id="dropdownMenuButton"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"> Interior</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-toggle text-decoration-none text-white" id="dropdownMenuButton3"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Interior</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
                         <a class="dropdown-item" href="product.html?id=3&c_id=1">Mobile Electronics <span
                                 class="category-arrow"><i class="fas fa-chevron-right"></i></span> </a>
                         <a class="dropdown-item" href="product.html?id=3&c_id=2">Horns and Components <span
@@ -203,12 +214,12 @@
                             <span class="category-arrow"><i class="fas fa-chevron-right"></i></span> </a>
                     </div>
                 </li>
-                <li class=" dropdown ">
+                <li class="dropdown">
                     <!-- fourth category -->
-                    <a class="dropdown-toggle text-decoration-none text-white" id="dropdownMenuButton"
+                    <a class="dropdown-toggle text-decoration-none text-white" id="dropdownMenuButton4"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Car Parts</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="product.html?id=4&c_id=1">Back & Head Lights <span
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
+                        <a class="dropdown-item" href="product.html?id=4&c_id=1">Back &amp; Head Lights <span
                                 class="category-arrow"><i class="fas fa-chevron-right"></i></span> </a>
                         <a class="dropdown-item" href="product.html?id=4&c_id=2">Side Mirrors <span
                                 class="category-arrow"><i class="fas fa-chevron-right"></i></span> </a>
@@ -222,11 +233,9 @@
 
     <!-- Product Detail-->
     <div class="products-container">
-        <!-- Complete product detail w.r.t category from products-details.js -->
-        <!-- Product Specification -->
-
-
+        <!-- Product details will be injected from product_details.js -->
     </div>
+
     <!-- Similar Products -->
     <div class="container">
         <div class="row">
@@ -237,36 +246,11 @@
         </div>
 
         <div class="row similar-products">
-
-            <!-- <div class="col-3 text-center">
-                <img src="../assets/images/website-images/side-mirrors.png">
-                <h4>Door Accessories</h4>
-                <span class="badge badge-pill badge-danger">$50.00</span>
-            </div>
-
-            <div class="col-3 text-center">
-                <img src="../assets/images/website-images/side-mirrors.png">
-                <h4>Door Accessories</h4>
-                <span class="badge badge-pill badge-danger">$58.00</span>
-            </div>
-
-            <div class="col-3 text-center">
-                <img src="../assets/images/website-images/side-mirrors.png">
-                <h4>Door Accessories</h4>
-                <span class="badge badge-pill badge-danger">$82.00</span>
-            </div>
-
-            <div class="col-3 text-center">
-                <img src="../assets/images/website-images/side-mirrors.png">
-                <h4>Door Accessories</h4>
-                <span class="badge badge-pill badge-danger">$74.00</span>
-            </div> -->
-
+            <!-- Similar products populated dynamically -->
         </div>
     </div>
 
-
-    <!-- footer contains 3 columns-->
+    <!-- footer -->
     <footer>
         <section class="pb-3 footer-section">
             <section class="mt-5 d-flex container justify-content-between align-items-top flex-wrap">
@@ -277,9 +261,9 @@
                             <h6 class="font-weight-bold">Contact Us</h6>
                         </li>
                         <li>
-                            <!-- icon -->
-                            <span><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="15" height="15"
-                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="15" height="15"
+                                    viewBox="0 0 172 172" style="fill:#000000;">
                                     <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
                                         stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
                                         stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
@@ -291,53 +275,63 @@
                                             </path>
                                         </g>
                                     </g>
-                                </svg></span>
-                            <!-- about contains anchor libk direct to the about us sections -->
-                            <a href="../index.html#about-us" class="text-decoration-none"> About</a> </li>
-                        <!-- address -->
-                        <li><span><i class="fas fa-map-marker-alt"></i></span> Address: <br>Shop#8 Auto Parts
-                            road,
-                            Karachi-75650, Pakistan</li>
-                        <!-- phone number -->
-                        <li><span><i class="fas fa-phone-alt"></i></span> Phone No: <br> +92312345678</li>
-                        <!-- email onclick directs to the given email address -->
-                        <li><span><i class="fas fa-envelope"></i></span> Email: <address class="mb-0"><a
-                                    href="mailto:exoticparts@gmail.com"
-                                    class="text-decoration-none">exoticparts@gmail.com</a>
+                                </svg>
+                            </span>
+                            <a href="../index.html#about-us" class="text-decoration-none"> About</a>
+                        </li>
+                        <li>
+                            <span><i class="fas fa-map-marker-alt"></i></span>
+                            Address: <br>Shop#8 Auto Parts road, Karachi-75650, Pakistan
+                        </li>
+                        <li>
+                            <span><i class="fas fa-phone-alt"></i></span>
+                            Phone No: <br> +92312345678
+                        </li>
+                        <li>
+                            <span><i class="fas fa-envelope"></i></span>
+                            Email:
+                            <address class="mb-0 d-inline">
+                                <a href="mailto:exoticparts@gmail.com" class="text-decoration-none">
+                                    exoticparts@gmail.com
+                                </a>
                             </address>
                         </li>
-                        <!-- facebook -->
-                        <li><span><i class="fab fa-facebook-f"></i></span><a href="https://www.facebook.com/ExoticParts"
-                                class="text-decoration-none">
-                                Facebook</a>
+                        <li>
+                            <span><i class="fab fa-facebook-f"></i></span>
+                            <a href="https://www.facebook.com/ExoticParts" class="text-decoration-none">
+                                Facebook
+                            </a>
                         </li>
-                        <!-- instagram -->
-                        <li><span><i class="fab fa-instagram"></i></span> <a
-                                href="https://www.instagram.com/ExoticParts/" class="text-decoration-none">
-                                Instagram</a></li>
+                        <li>
+                            <span><i class="fab fa-instagram"></i></span>
+                            <a href="https://www.instagram.com/ExoticParts/" class="text-decoration-none">
+                                Instagram
+                            </a>
+                        </li>
                     </ul>
                 </div>
+
                 <!-- sort by categories second column -->
                 <div>
                     <ul class="list-unstyled container">
                         <li>
                             <h6 class="font-weight-bold">Sort by Categories</h6>
                         </li>
-                        <!-- all 4 categories direct the user to their respective category page -->
-                        <li><span></span><a href="../index.html#1" class="text-decoration-none">Tyre and Wheels</a></li>
-                        <li><span></span><a href="../index.html#2" class="text-decoration-none">Exterior</a></li>
-                        <li><span></span><a href="../index.html#3" class="text-decoration-none">Interior</a></li>
-                        <li><span></span><a href="../index.html#4" class="text-decoration-none">Car Parts</a></li>
+                        <li><a href="../index.html#1" class="text-decoration-none">Tyre and Wheels</a></li>
+                        <li><a href="../index.html#2" class="text-decoration-none">Exterior</a></li>
+                        <li><a href="../index.html#3" class="text-decoration-none">Interior</a></li>
+                        <li><a href="../index.html#4" class="text-decoration-none">Car Parts</a></li>
                     </ul>
                 </div>
-                <!-- this part contain content why user choose exotic parts 3rd column contains (2 ul elements) -->
+
+                <!-- why choose us third column -->
                 <div>
                     <!-- 1st ul -->
                     <ul class="list-unstyled container">
                         <li>
-                            <!-- icon -->
-                            <span><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
-                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
+                                    viewBox="0 0 172 172" style="fill:#000000;">
                                     <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
                                         stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
                                         stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
@@ -349,27 +343,21 @@
                                             </path>
                                         </g>
                                     </g>
-                                </svg></span>
+                                </svg>
+                            </span>
                             <h6 class="d-inline font-weight-bold">Get 10% Discount on late delivery</h6>
                         </li>
-                        <li>
-                            <p>Don't let your auto die, buy exotic parts!</p>
-                        </li>
-
-                        <li>
-                            <p>Big range of genuine products</p>
-                        </li>
-                        <li>
-                            <p>Deliver at door steps</p>
-                        </li>
-
+                        <li><p>Don't let your auto die, buy exotic parts!</p></li>
+                        <li><p>Big range of genuine products</p></li>
+                        <li><p>Deliver at door steps</p></li>
                     </ul>
+
                     <!-- second ul -->
                     <ul class="list-unstyled container">
                         <li>
-                            <!-- icon -->
-                            <span><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
-                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
+                                    viewBox="0 0 172 172" style="fill:#000000;">
                                     <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
                                         stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
                                         stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
@@ -381,39 +369,32 @@
                                             </path>
                                         </g>
                                     </g>
-                                </svg></span>
+                                </svg>
+                            </span>
                             <h6 class="d-inline font-weight-bold">Easy Online Shopping</h6>
                         </li>
-                        <li>
-                            <p>Get all Your Autoparts</p>
-
-                        </li>
-
-                        <li>
-                            <p>Full Customer Support</p>
-                        </li>
-                        <li>
-                            <p>Cash on Delivery</p>
-                        </li>
-
+                        <li><p>Get all Your Autoparts</p></li>
+                        <li><p>Full Customer Support</p></li>
+                        <li><p>Cash on Delivery</p></li>
                     </ul>
                 </div>
             </section>
         </section>
+
         <!-- copyright section -->
         <div class="w-100 copyright-section">
             <small class="ml-5">
-                &copy; Copyright 2020 Exotic Parts.This website is developed for learning purpose.
+                &copy; Copyright 2020 Exotic Parts. This website is developed for learning purpose.
             </small>
         </div>
     </footer>
 
     <!-- scripting files -->
 
-    <!-- sweet alert scripting -->
+    <!-- sweet alert -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-    <!-- external product details file -->
+    <!-- external product details script -->
     <script src="../assets/script/product_details.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
